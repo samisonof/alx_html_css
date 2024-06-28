@@ -1,0 +1,111 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: left;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+footer {
+    flex: 0 0 auto;
+    margin-top: auto;
+}
+
+/* Flexbox container for main content */
+main {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
+
+/* Flexbox items */
+article {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+aside {
+    flex: 1;
+    background-color: #e9ecef;
+    padding: 10px;
+}
+
+/* Optional: Styling for header and footer */
+header, footer {
+    background-color:#ffffff;
+    color:#333;
+}
+
+/* Optional: Box model adjustment */
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* Example CSS rules */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff6347;
+}
+
+p {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+}
+
+
+
+
+
+
+.logo {
+    font-size: 24px;
+    color: #ff6347;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* Flexbox layout example */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 0 0 200px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
